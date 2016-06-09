@@ -1,8 +1,15 @@
 ---
 
+manala_composer_home_dir: /usr/share/composer
+
+
+#- apt: name=cobbler state=installed
+#  environment:
+#    http_proxy: http://proxy.example.com:8080
+
 # Bin
-manala_composer_bin: /usr/local/bin/composer
+#manala_composer_bin: /usr/local/bin/composer
 
 # Users - Auth
-manala_composer_users_auth_template: users/auth/empty.j2
-manala_composer_users_auth: []
+#manala_composer_users_auth_template: users/auth/empty.j2
+#manala_composer_users_auth: []
